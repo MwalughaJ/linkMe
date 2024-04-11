@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My socials.</title>
+</head>
+<body>
+    <style>
+        body{
+            background: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            margin-top: 0px;
+            height: 50px;
+            background-color:hsl(0 0% 100% / 0.1);
+            backdrop-filter: blur(23rem);
+            box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+        header p{
+            margin-left: 30px;
+            font-size: 30px;
+            color: #172f2f;
+            font-family: cursive;
+            text-decoration: underline;
+           
+
+        }
+        section{
+            padding: 2%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+    
+            
+        }
+        a{
+            margin-top: 30px;
+            color:#ffd166;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+            justify-content: center;
+            text-align: center;
+            box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color:hsl(0 0% 100% / 0.1);
+            backdrop-filter: blur(23rem);
+            border: 3px solid #172f2f;
+            background: rgb(185, 175, 175);
+
+
+
+
+        }
+        .box p{
+            font-size: 23px;
+            color: #172f2f;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .box img{
+            margin-top: 30px;
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            background: fixed;
+            box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+        .box:hover{
+            background: rgb(185, 175, 175);
+            transition: .5s ease-in-out;
+        }
+        footer {
+            height: 50px;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 17px;
+            color: #172f2f;
+            background: #172f2f;
+            p{
+                padding: 20px;
+                color: white;
+                a{
+                    color: white;
+                }
+            }
+        }
+
+
+
+        
+
+        @media only screen and (max-width:450px){
+            .box{
+                display: flex;
+                border: 2px solid #172f2f;
+                max-width: 350px;
+                max-height: 60px;
+                align-content: space-around;
+                overflow: hidden;
+                background-color:hsl(0 0% 100% / 0.1);
+                backdrop-filter: blur(2px);     
+                background: rgb(185, 175, 175);
+           
+            }
+            .box img{
+                margin-top: 10px;
+                width: 40px;
+                height: 40px;
+                margin-right: 30px;
+            }
+            .box:hover{
+                background: rgb(185, 175, 175);
+                transition: .5s ease-in-out;
+            }
+            h1{
+                font-size: 30px;
+            }
+
+            
+        }
+
+    </style>
+    <header>
+        <p>
+            LinkMe.
+        </p>
+    </header>
+    <section>
+
+        <a href="https://www.instagram.com/mwanyotajavan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            <div class="box">
+                <img src="/icons/instagram1.jpg" alt="instagram">
+                <p>Instagram</p>
+            </div>
+        </a>
+
+        <a href="https://x.com/JavanMwanyota?s=09">
+            <div class="box">
+                <img src="/icons/x.jpg" alt="twitter">
+                <p>Twitter</p>
+
+            </div>
+        </a>
+
+        <a href="https://www.facebook.com/javan.mwanyota.9?sfnsn=wa&mibextid=2JQ9oc">
+            <div class="box">
+                <img src="/icons/facebook.jpg" alt="">
+                <p>Facebook</p>
+
+            </div>
+        </a>
+
+
+    
+    </section>
+
+    <section>
+
+        <a href="">    
+            <div class="box">
+                <img src="/icons/whatsapp.jpg" alt="whatsapp">
+                <p>Whatsapp</p>
+
+            </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/steve-keago-90a157256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <div class="box">
+                <img src="/icons/linkedin.jpg" alt="linkedin">
+                <p>LinkedIn</p>
+
+            </div>
+        </a>
+
+            
+        <a href="">
+            <div class="box">
+                <img src="/icons/website.jpg" alt="">
+                <p>My Website</p>
+
+            </div>
+        </a>
+    
+    </section>
+
+    <footer>
+        <p>
+            Developed by <a href="">Steve keago</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
